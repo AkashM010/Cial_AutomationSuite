@@ -1,0 +1,75 @@
+{
+  "cookies": [
+    {
+      "name": "frontend_lang",
+      "value": "en_US",
+      "domain": "13.234.59.241",
+      "path": "/",
+      "expires": 1812449390.612253,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "tz",
+      "value": "Asia/Calcutta",
+      "domain": "13.234.59.241",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "session_id",
+      "value": "V23eL862AWMBipu6YKcTJBebTjclNP92QHT349OMWGwI4zU7DXKFbQ1kvnDQqP0l2Kt0NAZJdC3jq_q4feEL",
+      "domain": "13.234.59.241",
+      "path": "/",
+      "expires": 1781518192.902098,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "cids",
+      "value": "1",
+      "domain": "13.234.59.241",
+      "path": "/",
+      "expires": 1812449393.919971,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "http://13.234.59.241:8069",
+      "localStorage": [
+        {
+          "name": "multi_tab.http_13.234.59.241_8069.heartbeat",
+          "value": "1780913393908"
+        },
+        {
+          "name": "multi_tab.http_13.234.59.241_8069.main",
+          "value": "true"
+        },
+        {
+          "name": "presence.lastPresence",
+          "value": "1780913392074"
+        },
+        {
+          "name": "multi_tab.http_13.234.59.241_8069.lastPresenceByTab",
+          "value": "{}"
+        },
+        {
+          "name": "web.lastConnectedUser",
+          "value": "[{\"login\":\"techadmin@exmp.com\",\"name\":\"Mitchell Admin\",\"partnerId\":3,\"partnerWriteDate\":\"2026-06-08 07:15:54\",\"userId\":2}]"
+        },
+        {
+          "name": "presence.focus",
+          "value": "true"
+        }
+      ]
+    }
+  ]
+}
