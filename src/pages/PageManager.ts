@@ -3,6 +3,7 @@ import { LoginPage } from "./LoginPage";
 import { MenuPage } from "./navigation/MenuPage";
 import { TopNavBarPage } from "./navigation/TopNavBarPage";
 import { AssetListPage } from "./asset-management/AssetListPage";
+import { AssetFormPage } from "./asset-management/AssetFormPage";
 
 export class PageManager {
 
@@ -22,5 +23,9 @@ export class PageManager {
 
     getAssetListPage() {
         return new AssetListPage(this.page);
+    }
+
+    getAssetFormPage() {
+        return new AssetFormPage(this.page);
     }
 }

@@ -9,7 +9,7 @@ export class MenuPage extends BasePage {
         super(page);
 
         //Locators
-        this.CIALMaintenanceLocator = page.getByTestId('CIAL Maintenance');
+        this.CIALMaintenanceLocator = page.getByText('CIAL Maintenance', { exact: true });
     }
 
     getCialMaintenance() {

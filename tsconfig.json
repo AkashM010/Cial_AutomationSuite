@@ -44,7 +44,7 @@
     "tests",
     "config",
     "playwright.config.ts",
-    "Utils",
+    "utils",
     "src/auth/auth.setup.ts"
   ]
 }

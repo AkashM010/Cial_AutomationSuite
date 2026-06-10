@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { PageManager } from '../src/pages/PageManager';
-import { USERS } from '../Utils/testData';
+import { USERS } from '../utils/testData';
 
 let pm: PageManager;
 
